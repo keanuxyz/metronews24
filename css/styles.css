@@ -75,18 +75,21 @@ li {
 	width: 40%;
 }
 @media (max-width: 1300px) {
-	#top-story p {
-		opacity: 0;
+	.top-story-text {
+		top: 10%;
 	}
 }
 @media (max-width: 960px) {
 	.top-story-text {
 		top: 25%;
 	}
+	#top-story p {
+		opacity: 0;
+	}
 }
 @media (max-width: 720px) {
 	.top-story-text {
-		top: 25%;
+		top: 20%;
 	}
 }
 @media (max-width: 640px) {
