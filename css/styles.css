@@ -1,5 +1,5 @@
 body {
-	font-family: "montserrat", "Gill Sans", sans-serif;
+	font-family: "montserrat", sans-serif;
 	padding: 0;
 }
 /*	Header Section	*/
@@ -8,7 +8,6 @@ body {
 /*	Navbar	*/
 #navbar {
 	background-color: #000b1d;
-	font-family: "montserrat", sans-serif;
 	font-weight: 400;
 	padding: 1rem;
 	position: relative;
