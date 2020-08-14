@@ -1,0 +1,155 @@
+/*				Global Styles				*/
+body {
+	font-family: "montserrat", "Gill Sans", sans-serif;
+	padding: 0;
+}
+/*	Navbar	*/
+#navbar {
+	background-color: #000b1d;
+	font-family: "montserrat", sans-serif;
+	font-weight: 400;
+	padding: 1rem;
+	position: relative;
+}
+#navbar a {
+	color: white;
+	text-decoration: none;
+}
+#navbar ul {
+	list-style-type: none;
+	display: inline;
+	margin-right: auto;
+}
+.nav-title {
+	font-size: 2rem;
+	font-weight: 500;
+}
+.nav-main {
+	font-size: 1.2rem;
+	text-align: right;
+	position: absolute;
+	right: 1.5rem;
+	top: 1.5rem;
+}
+li {
+	margin-right: 1.5rem;
+}
+.nav-item {
+	display: inline;
+}
+@media (max-width: 640px) {
+	.nav-main {
+		display: block;
+		padding: 1rem 0 0;
+		position: static;
+		text-align: left;
+	}
+	.nav-main ul {
+		padding-inline-start: 0px;
+	}
+}
+/*	Footer Section	*/
+#footer {
+	color: #8F8F8F;
+	padding: 1.5625rem 0;
+	text-align: center;
+}
+.sm-icon {
+	margin: 0 0.75rem 0;
+}
+/*	Header Section	*/
+#Header {}
+/*				Index				*/
+/* Top Story */
+#top-story {
+	background-color: #d8d8d8;
+	height: auto;
+	margin: 1rem 0;
+	position: relative;
+}
+#top-story img {
+	width: 50%;
+}
+#top-story a {
+	text-decoration: none;
+	color: #000;
+}
+#top-story a:hover {
+	color: #fff;
+}
+.top-story-text {
+	position: absolute;
+	right: 5%;
+	top: 30%;
+	width: 40%;
+}
+@media (max-width: 1300px) {
+	#top-story p {
+		opacity: 0;
+	}
+}
+@media (max-width: 960px) {
+	.top-story-text {
+		top: 25%;
+	}
+}
+@media (max-width: 720px) {
+	.top-story-text {
+		top: 25%;
+	}
+}
+@media (max-width: 640px) {
+	.top-story-text {
+		top: 15%;
+	}
+}
+@media (max-width: 600px) {
+	.top-story-text {
+		top: 10%;
+	}
+}
+@media (max-width: 540px) {
+	.top-story-text {
+		top: 4%;
+	}
+}
+/*	Trending Stories Section	*/
+#trending-stories {
+	text-align: center;
+}
+.story-box {
+	background-color: #fd9a00;
+	color: #fff;
+	display: inline-block;
+	margin: 1%;
+	width: 20%;
+}
+.story-box-inner {
+	padding: 1.5rem;
+}
+.story-box img {
+	width: 100%;
+}
+.story-box a {
+	color: #fff;
+	text-decoration: none;
+}
+.story-box a:hover {
+	color: #000b1d;
+}
+@media (max-width: 1375px) {
+	.story-box {
+		margin: 2%;
+		width: 40%;
+	}
+}
+@media (max-width: 1100px) {
+	.story-box {
+		font-size: 1.2rem;
+		margin: 5%;
+		width: 80%;
+	}
+	.story-box h4 {
+		font-size: 1.5rem;
+	}
+}
